@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e6;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    margin: 0;
+    color: #6b4f3b;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6b4f3b;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #c19a6b;
+}
+
+/* Menu */
+.menu {
+    padding: 60px 20px;
+}
+
+.menu h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.category {
+    margin: 40px 0 15px;
+    color: #6b4f3b;
+}
+
+/* Grid */
+.menu-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Items */
+.item {
+    background: #fffaf3;
+    padding: 18px 25px;
+    border-radius: 12px;
+    min-width: 200px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.25s;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    background: #f0e4d7;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    color: #777;
+}
+/* Contact page */
+.contact {
+    padding: 60px 20px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    background: #fffaf3;
+    padding: 25px;
+    margin: 20px auto;
+    width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+/* Enquiry form */
+.enquiry-title {
+    margin-top: 40px;
+    color: #6b4f3b;
+}
+
+.enquiry-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+    width: 260px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-family: Arial;
+}
+
+.enquiry-form textarea {
+    resize: none;
+}
+
+/* Button (reuse style if you already have one) */
+.enquiry-form button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #d2b48c;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.enquiry-form button:hover {
+    background-color: #c19a6b;
+}
+/* About page */
+.about {
+    padding: 60px 20px;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #6b4f3b;
+}
+
+.about-box {
+    background: #fffaf3;
+    padding: 25px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.about-box p {
+    margin-bottom: 15px;
+}
+
+/* Highlight features */
+.about-highlight {
+    margin-top: 30px;
+}
+
+.about-highlight p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+/* Founder section */
+.about-founder {
+    margin-top: 40px;
+    background: #f0e4d7;
+    padding: 20px;
+    border-radius: 12px;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-founder p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+.menu-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #d2b48c;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.menu-button:hover {
+    background-color: #c19a6b;
+}
+.carousel {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
